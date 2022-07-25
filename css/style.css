@@ -1,0 +1,104 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 100%;
+}
+
+.icon-list li {
+  list-style: none;
+  display: inline-block;
+}
+
+.icon-list {
+  width: 100%;
+  text-align: center;
+  margin: 15% auto;
+}
+
+.icon-list li a {
+  display: block;
+  margin: 0px 15px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  border-radius: 100%;
+  background-color: #96BB7C;
+  border: 2px solid #184D47;
+  color: #184D47;
+  transition: 0.5s;
+}
+
+.icon-list li a:hover {
+  border: 2px solid #96BB7C;
+  background: #184D47;
+  color: #96BB7C;
+}
+
+.green {
+  width: 500px;
+  background-color: green;
+  height: 300px;
+  position: relative;
+}
+
+.red {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+}
+
+.banner .fb {
+  width: 180px;
+  position: fixed;
+  right: -120px;
+  top: 30%;
+  transition: 0.5s;
+}
+
+.banner .fb:hover {
+  right: -2px;
+}
+
+.banner .insta {
+  width: 180px;
+  position: fixed;
+  right: -120px;
+  top: 40%;
+  transition: 0.5s;
+}
+
+.banner .insta:hover {
+  right: -2px;
+}
+
+.banner .yt {
+  width: 180px;
+  position: fixed;
+  right: -120px;
+  top: 50%;
+  transition: 0.5s;
+}
+
+.banner .yt:hover {
+  right: -2px;
+}
+
+.banner .twitch {
+  width: 180px;
+  position: fixed;
+  right: -120px;
+  top: 60%;
+  transition: 0.5s;
+}
+
+.banner .twitch:hover {
+  right: -2px;
+}
